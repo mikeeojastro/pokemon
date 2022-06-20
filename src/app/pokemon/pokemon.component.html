@@ -1,0 +1,15 @@
+<h2>Pokemon List</h2>
+<ul class="pokemonList">
+  <table>
+    <tr>
+      <th>POKEMON NAME</th>
+      <th>TYPE</th>
+      <th>IMAGE</th>
+    </tr>
+    <tr *ngFor="let pokemon of pokemonList">
+      <td>{{pokemon.name}}</td>
+      <td>{{pokemon.type}}</td>
+      <td><img src={{pokemon.imgPath}} /></td>
+    </tr>
+  </table>
+</ul>

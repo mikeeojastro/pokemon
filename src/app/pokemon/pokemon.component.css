@@ -1,0 +1,22 @@
+/* PokemonComponent's private CSS styles */
+  .pokemonList {
+    margin: auto;
+    width: 80%;
+    border: 3px solid #3D3D3D;
+    padding: 10px;
+  }
+
+  h2 {
+    text-align: center;
+  }
+  
+  .pokemonList .name {
+    align-self: center;
+  }
+
+  th, td {
+    padding: 10px;
+    text-align: center;
+    width: 60%;
+    border: 3px solid #3D3D3D;
+  }
